@@ -10,6 +10,9 @@
 
     <!--email-->
 
+    <fieldset>
+        <legend> Registration </legend>
+
     <div class="suemail">
         <div class="suemail-container">
             <span class="suemail">
@@ -42,10 +45,10 @@
 
         <div class="supassword-container">
             <span class="supassword">
-                <form action = "#" id="supassword">
+                <form action = "#">
                     <div class="su-password">
                         <label for="pass">Password:</label>
-                        <input type="password" id="pass" name="password" placeholder="password: min 8 character"
+                        <input type="password" id="password" name="password" placeholder="password: min 8 character"
                                minlength="8" required>
                     </div>
                   </form>
@@ -56,10 +59,10 @@
 
         <div class="suconfirm-pwd-container">
             <span class="suconfirm-pwd">
-                <form action = "#" id="suconfirm-pwd">
+                <form action = "#">
                     <div class="suconfirm-pwd">
                         <label for="confirm">Confirm-Password:</label>
-                        <input type="password" id="confirm" name="Confirm-Password" placeholder="Confirm-password"
+                        <input type="password" id="confirm_password" name="Confirm-Password" placeholder="Confirm-password"
                                minlength="8" required>
                     </div>
                   </form>
@@ -89,9 +92,32 @@
 
         <!--Registration buttom-->
 
-        <button type="submit" class="registerbtn">Register</button>
-      </div>
-      
+        
+        <button id="myBtn">Registration</button>
+
+            <!-- The Terms -->
+                <div id="myterms" class="terms">
+
+              <!-- terms content -->
+                <div class="terms-content">
+                  <span class="close">&times;</span>
+                    <p>Some text for the terms.</p>
+                 </div>
+                 <a href="r.html">terms and condition</a>
+                 <form action="#" id = "cross"></form>
+            <input type="checkbox"> Agree 
+
+
+            </div>
+            
+
+            <!--screen-->
+
+
+            
+
+
+    </fieldset>
 
       <hr>
       
@@ -102,5 +128,9 @@
 
     </div>
 
+
+    <script src = "Event.js"></script>
+    <script src = "style.css"></script>
 </body>
+
 </html>
